@@ -31,3 +31,13 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(element);
   return array
 }
+
+function addElementtoEndOfArray(array, element) {
+  var newArray = [...array, element]
+  return newArray
+}
+
+function destructivelyAddElementToEndOfArray(array, element) {
+  array.push(element)
+  return array
+}
