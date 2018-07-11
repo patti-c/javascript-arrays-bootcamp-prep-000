@@ -27,3 +27,5 @@ const cats = ["Milo", "Garfield"]
 const moreCats = ["Felix", ...cats]
 
 console.log(cats)
+
+console.log(moreCats)
