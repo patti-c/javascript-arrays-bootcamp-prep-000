@@ -46,3 +46,7 @@ function accessElementInArray(array, index) {
   return array[index]
 }
 
+function destrictivelyRemoveElementFromBeginningOfArray(array) {
+  array.shift()
+  return array
+}
