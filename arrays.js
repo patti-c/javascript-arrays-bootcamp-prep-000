@@ -33,4 +33,4 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   return array
 }
 
-destructivelyAddElementToBeginningOfArray(chocolateBars, hersheys)
+console.log (destructivelyAddElementToBeginningOfArray(chocolateBars, hersheys))
