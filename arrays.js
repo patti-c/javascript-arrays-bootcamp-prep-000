@@ -32,3 +32,5 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   console.log(array)
   return array
 }
+
+destructivelyAddElementToBeginningOfArray()
